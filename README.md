@@ -25,4 +25,4 @@ cd debwebdev
 ```
 ## What will be installed
 - This script will set up and configure NGINX with a self-signed certificate and expose the folder `/var/www/` to `https://localhost`
-- A self-signed RSA 4096 certificate (and key) will be generated with `opensll` and installed to `/etc/ssl/certs/` and `/etc/ssl/keys/`
+- A self-signed RSA 4096 certificate (and key) will be generated with `openssl` and installed to `/etc/ssl/certs/` and `/etc/ssl/keys/`
